@@ -25,6 +25,7 @@
             color: lightblue;
             margin: 0;
             font-size: 42px;
+            letter-spacing: 2px;
         }
 
         .categories {
@@ -42,11 +43,20 @@
             text-align: center;
             padding: 20px;
             box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.08);
         }
 
         .card img {
             width: 120px;
             height: 120px;
+        }
+
+        .card h3 {
+            color: #000047;
         }
 
         .card button {
@@ -58,21 +68,50 @@
             cursor: pointer;
         }
 
+        .card button:hover {
+            background-color: #000047;
+        }
+
+        /* About Section */
+        .about {
+            background-color: rgba(255, 255, 255, 0.85);
+            margin: 40px auto;
+            width: 80%;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+        }
+
+        .about h2 {
+            color: #000047;
+            margin-bottom: 15px;
+        }
+
+        .about p {
+            color: #333;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
         .footer-table {
             width: 100%;
             background-color: #000047;
             color: white;
             text-align: center;
+            padding: 15px 0;
         }
     </style>
 </head>
 
 <body>
 
+<!-- Header -->
 <div class="header">
     <h1>ShopEase</h1>
 </div>
 
+<!-- Categories -->
 <div class="categories">
 
     <div class="card">
@@ -97,12 +136,24 @@
 
 </div>
 
+<!-- About Section -->
+<div class="about">
+    <h2>Why ShopEase?</h2>
+    <p>
+        ShopEase is your trusted online shopping destination for stylish dresses,
+        premium footwear, and refreshing perfumes. We focus on quality, comfort,
+        and affordability to give you a smooth and enjoyable shopping experience.
+        Discover the latest trends, exclusive collections, and great deals — all
+        in one place.
+    </p>
+</div>
+
+<!-- Footer -->
 <table class="footer-table">
     <tr><td>📧 afrozeshaikh7860@gmail.com</td></tr>
     <tr><td>📞 +91 9XXXXXXXXX</td></tr>
-    <tr><td>© 2025 ShopEase</td></tr>
+    <tr><td>© 2025 ShopEase. All Rights Reserved.</td></tr>
 </table>
 
 </body>
 </html>
-
