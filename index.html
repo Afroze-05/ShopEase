@@ -15,7 +15,6 @@
             background-attachment: fixed;
         }
 
-        /* Header */
         .header {
             background-color: #000047;
             padding: 20px;
@@ -26,10 +25,8 @@
             color: lightblue;
             margin: 0;
             font-size: 42px;
-            letter-spacing: 2px;
         }
 
-        /* Categories Section */
         .categories {
             display: flex;
             justify-content: center;
@@ -45,22 +42,11 @@
             text-align: center;
             padding: 20px;
             box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-            transition: transform 0.3s;
-        }
-
-        .card:hover {
-            transform: scale(1.08);
         }
 
         .card img {
             width: 120px;
             height: 120px;
-            object-fit: contain;
-        }
-
-        .card h3 {
-            margin: 15px 0 10px;
-            color: #000047;
         }
 
         .card button {
@@ -72,100 +58,50 @@
             cursor: pointer;
         }
 
-        .card button:hover {
-            background-color: #000047;
-        }
-
-        /* Footer Table */
         .footer-table {
             width: 100%;
             background-color: #000047;
-        }
-
-        .footer-table th,
-        .footer-table td {
-            padding: 12px;
-            text-align: center;
             color: white;
-            font-size: 14px;
-        }
-
-        .footer-table th {
-            color: lightblue;
-            font-size: 18px;
-        }
-
-        .copyright {
-            color: lightblue;
-            font-size: 13px;
+            text-align: center;
         }
     </style>
 </head>
 
 <body>
 
-    <!-- Header -->
-    <div class="header">
-        <h1>ShopEase</h1>
-    </div>
-
-    <!-- Categories -->
-    <div class="categories">
-
-        <div class="card">
-    <img src="cloth.png" alt="Dress">
-    <h3>Dress</h3>
-    <a href="dress.html">
-        <button>Shop Now</button>
-    </a>
+<div class="header">
+    <h1>ShopEase</h1>
 </div>
 
+<div class="categories">
 
-        <div class="card">
-            <img src="foot.png" alt="Footwear">
-            <h3>Footwear</h3>
+    <div class="card">
+        <img src="cloth.png">
+        <h3>Dress</h3>
+        <a href="dress.html">
             <button>Shop Now</button>
-        </div>
-
-        <div class="card">
-            <img src="perfume.png" alt="Perfume">
-            <h3>Perfume</h3>
-            <button>Shop Now</button>
-        </div>
-
+        </a>
     </div>
 
-    <!-- Footer -->
-    <table class="footer-table">
+    <div class="card">
+        <img src="foot.png">
+        <h3>Footwear</h3>
+        <button>Shop Now</button>
+    </div>
 
-        <tr>
-            <th>About ShopEase</th>
-        </tr>
+    <div class="card">
+        <img src="perfume.png">
+        <h3>Perfume</h3>
+        <button>Shop Now</button>
+    </div>
 
-        <tr>
-            <td>
-                ShopEase is your one-stop online shopping destination for fashion,
-                footwear, and fragrances. We provide quality products, affordable
-                pricing, and a smooth shopping experience for everyone.
-            </td>
-        </tr>
+</div>
 
-        <tr>
-            <td>📧 Email: afrozeshaikh7860@gmail.com</td>
-        </tr>
-
-        <tr>
-            <td>📞 Phone: +91 9XXXXXXXXX</td>
-        </tr>
-
-        <tr>
-            <td class="copyright">
-                © 2025 ShopEase. All Rights Reserved.
-            </td>
-        </tr>
-
-    </table>
+<table class="footer-table">
+    <tr><td>📧 afrozeshaikh7860@gmail.com</td></tr>
+    <tr><td>📞 +91 9XXXXXXXXX</td></tr>
+    <tr><td>© 2025 ShopEase</td></tr>
+</table>
 
 </body>
 </html>
-
