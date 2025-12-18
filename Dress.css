@@ -20,7 +20,7 @@ body {
   display: flex;
   gap: 30px;
   padding: 20px;
-  animation: move 12s linear infinite;
+  animation: move 6s linear infinite;
 }
 
 /* Pause on hover */
@@ -80,3 +80,4 @@ body {
   font-weight: bold;
   color: #333;
 }
+
