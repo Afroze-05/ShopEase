@@ -1,1 +1,1 @@
-# Shooping
+# ShopEase
